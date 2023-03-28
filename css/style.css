@@ -1,0 +1,202 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #8a2be2;
+    --secondey-color: #51cf66;
+    --yellow-color: #f0ed6a;
+    --red-color: #ee3211;
+}
+
+input:focus{
+    outline: none;
+    padding: 2em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #eeee;
+}
+
+nav{
+    background-color: #8a2be2;
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+a.navbar-brand{
+    color: #ffff;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-link{
+    margin-right: 2em;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.Hero{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero > .add-container{
+    background-color: var(--primary-color);
+    padding: 1em 2em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-w/rap: wrap; */
+}
+
+.Hero > .add-container > input{
+    padding: .4em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    max-width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.Hero > .add-container > select{
+    background-color: #fff;
+    height: 40px;
+    width: 100px;
+    padding-left: 1em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.Hero > .add-container > .btns{
+    background-color: var(--secondey-color);
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.task-list {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.task-list h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+i{
+     color:#fff;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+
+.task .content {
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  overflow-wrap: break-word; /* added property */
+}
+
+.task .content input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    color: #444;
+}
+
+.task .actions {
+    display: flex;
+    gap: 10px;
+}
+
+.task .actions button {
+    padding: 8
+
+
+}
+
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    flex-grow: 1;
+  }
+  
+  .text {
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  .actions {
+    margin-left: 10px;
+  }
+  
+  .edit,
+  .delete {
+    background-color: #c7c7c7;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .edit {
+    background-color: #69c0ff;
+    margin-right: 10px;
+  }
+  
+  .delete {
+    background-color: #ff6b6b;
+  }
+  
